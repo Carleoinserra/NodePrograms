@@ -28,6 +28,22 @@ dove andremo a inserire i nostri file pug
 Per far partire l'app è inoltre necessario indicare la porta in cui l'applicazione si metterà in ascolto
 per fare questa cosa è necessario utilizzare il metodo listen sulla app e passare come parametro il numero della porta
 
+Il primo programma che realizzeremo usando il framework express sarà un semplice web server che risponde a una chimata
+get specifica
+Sarà il programma di helloworld per l'uso del framework
+Ora la prima operazione da fare per utilizzare il framework flask e installarlo sulla nostra cartella di lavoro
+il comando è molto semplice npm install express
+Vado quindi a importare il modulo express con require
+e creo una instanza inizializzata del modulo assegnandola ad una variabile app
+Creo una rotta di tipo get chiamando sull'istanza app il metodo get e passandogli come prametro l'indirizzo
+della rotta e una funzione anonima di callbacj in cui vado a definire la request e la response
+
+nel corpo della funzione vado a definire la response chiamando il metodo send a cui passo il testo
+o il codice che vogliamo passare nel response
+
+
+
+
 
 
 
