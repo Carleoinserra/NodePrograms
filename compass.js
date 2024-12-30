@@ -1,3 +1,17 @@
+/*
+MongoDB Compass è un'interfaccia grafica potente (GUI) per eseguire query, aggregare e analizzare i dati di MongoDB in un ambiente visivo.
+
+Compass è gratuito, con il codice sorgente disponibile, e può essere eseguito su macOS, Windows e Linux.
+
+In questa lezione vedrai come attraverso compass:
+1 Connetterti a mongoDb in locale su su una porta specificata
+2 creare un nuovo database
+3 creare una nuova collezione su un database
+4 Aggiungere un nuovo documento
+
+
+*/
+
 /*Ecco i passaggi per connetterti a MongoDB utilizzando MongoDB Compass:
 
 1. Apri MongoDB Compass
