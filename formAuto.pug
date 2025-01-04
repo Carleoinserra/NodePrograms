@@ -1,0 +1,18 @@
+doctype html
+html(lang="en")
+    head
+        title Form Input
+        link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css")
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js")
+    body
+      div(class="container")
+        h1 Inserisci l'auto
+        form(action="/submit", method="POST")
+            p Modello:
+            input(type="text", name="modello")
+            p Marca:
+            input(type="text", name="marca")
+            p Prezzo:
+            input(type="number", name="prezzo")
+            br
+            button(class="btn waves-effect waves-light", type="submit") Invia
