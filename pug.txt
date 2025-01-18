@@ -1,0 +1,1 @@
+Pug (precedentemente noto come Jade) è un template engine per Node.js che consente di generare HTML in modo conciso e leggibile. La sua sintassi è basata sull'indentazione, eliminando la necessità di usare parentesi o tag di chiusura tipici dell'HTML. È molto utile per progetti dove vuoi velocizzare la scrittura di codice HTML, soprattutto in applicazioni dinamiche.

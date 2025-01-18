@@ -6,9 +6,15 @@ html(lang="en")
         script(src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js")
     body
       div(class="container")
-        h1 Inserisci il tuo nome
+        h1 Inserisci l'auto
         form(action="/submit", method="POST")
-            label(for="nome") Nome:
-            input(type="text", name="nome" id="nome")
-            input(type="submit") Invia
+            p Modello:
+            input(type="text", name="modello")
+            p Marca:
+            input(type="text", name="marca")
+            p Prezzo:
+            input(type="number", name="prezzo")
+            br
+            button(class="btn waves-effect waves-light", type="submit") Invia
+
 
